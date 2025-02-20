@@ -1,0 +1,119 @@
+{
+  "基础运算": [
+    {
+      "name": "求和",
+      "description": "计算选定区域的和",
+      "template": "=SUM({range})"
+    },
+    {
+      "name": "平均值",
+      "description": "计算选定区域的平均值",
+      "template": "=AVERAGE({range})"
+    },
+    {
+      "name": "最大值",
+      "description": "返回选定区域中的最大值",
+      "template": "=MAX({range})"
+    },
+    {
+      "name": "最小值",
+      "description": "返回选定区域中的最小值",
+      "template": "=MIN({range})"
+    },
+    {
+      "name": "乘积",
+      "description": "返回选定区域中所有数值的乘积",
+      "template": "=PRODUCT({range})"
+    }
+  ],
+  "统计函数": [
+    {
+      "name": "计数",
+      "description": "统计选定区域内数值的个数",
+      "template": "=COUNT({range})"
+    },
+    {
+      "name": "文本计数",
+      "description": "统计选定区域内非空单元格的个数",
+      "template": "=COUNTA({range})"
+    },
+    {
+      "name": "空值计数",
+      "description": "统计选定区域内空单元格的个数",
+      "template": "=COUNTBLANK({range})"
+    },
+    {
+      "name": "标准差",
+      "description": "返回选定区域中数值的标准差",
+      "template": "=STDEV({range})"
+    },
+    {
+      "name": "方差",
+      "description": "返回选定区域中数值的方差",
+      "template": "=VAR({range})"
+    }
+  ],
+  "条件函数": [
+    {
+      "name": "条件求和",
+      "description": "计算选定区域内符合条件的数值之和",
+      "template": "=SUMIF({range}, \"{condition}\")"
+    },
+    {
+      "name": "条件计数",
+      "description": "统计选定区域内符合条件的数值个数",
+      "template": "=COUNTIF({range}, \"{condition}\")"
+    },
+    {
+      "name": "条件平均",
+      "description": "计算选定区域内符合条件的数值的平均值",
+      "template": "=AVERAGEIF({range}, \"{condition}\")"
+    }
+  ],
+  "查找函数": [
+    {
+      "name": "查找最大值位置",
+      "description": "查找最大值在区域中的位置",
+      "template": "=MATCH(MAX({range}),{range},0)"
+    },
+    {
+      "name": "查找最小值位置",
+      "description": "查找最小值在区域中的位置",
+      "template": "=MATCH(MIN({range}),{range},0)"
+    },
+    {
+      "name": "精确查找",
+      "description": "在区域中精确查找指定值的位置",
+      "template": "=MATCH(\"{value}\",{range},0)"
+    }
+  ],
+  "文本函数": [
+    {
+      "name": "合并文本",
+      "description": "合并选定区域内的文本",
+      "template": "=CONCATENATE({range})"
+    },
+    {
+      "name": "提取左侧",
+      "description": "提取文本左侧指定个数的字符",
+      "template": "=LEFT({range},{num})"
+    },
+    {
+      "name": "提取右侧",
+      "description": "提取文本右侧指定个数的字符",
+      "template": "=RIGHT({range},{num})"
+    }
+  ],
+  "百分比": [
+    {
+      "name": "百分比",
+      "description": "将数值转换为百分比",
+      "template": "={range}/100"
+    },
+    {
+      "name": "百分比格式",
+      "description": "以百分比格式显示数值",
+      "template": "=TEXT({range}/100,\"0.00%\")"
+    }
+  ]
+}

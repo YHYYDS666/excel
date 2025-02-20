@@ -1,0 +1,29 @@
+{
+    "window": {
+        "width": 1000,
+        "height": 600,
+        "min_width": 800,
+        "min_height": 500
+    },
+    "style": {
+        "font_family": "微软雅黑",
+        "font_size": 10,
+        "colors": {
+            "background": "#ffffff",
+            "foreground": "#333333",
+            "header": "#f0f0f0",
+            "button": "#e1e1e1",
+            "highlight": "#0078d7"
+        }
+    },
+    "excel": {
+        "default_sheet": 1,
+        "auto_refresh": true,
+        "max_history": 20
+    },
+    "formula": {
+        "search_delay": 500,
+        "auto_expand": true,
+        "show_description": true
+    }
+}
